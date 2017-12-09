@@ -1,0 +1,8 @@
+(defun our-third (x)
+	(car (cdr(cdr x))))
+(setq a (our-third '(a b c d)))
+(print a)
+(defun sum-greater(y z)
+	(> (+ y) z))
+(setq a (sum-greater '(3 4) 5))
+(print a)
